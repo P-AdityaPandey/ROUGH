@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#modal{
+    background-image: linear-gradient(rgba(196, 117, 39, 0.7), rgba(17, 106, 194, 0.7)), url(https://images.pexels.com/photos/842711/pexels-photo-842711.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    height: 400px;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+     background-color: rgba(0, 0, 0, 0.7); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h2 , p {
+
+    font-weight: bold;
+    color: white;
+    margin: 20px;
+    
+   
+   
+}

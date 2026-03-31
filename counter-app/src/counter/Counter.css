@@ -1,0 +1,7 @@
+#counter{
+    height: 60vh;
+    width: 60vw;
+    box-shadow: 0 0 20px green;
+    margin-top: 50px;
+    padding: 30px;
+}

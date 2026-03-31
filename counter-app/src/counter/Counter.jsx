@@ -2,17 +2,16 @@ import { useState } from 'react';
 import './Counter.css'
 
 function Counter() {
-    var count = 
-
+    const [count, setCount] = useState(0);
 
   return (
    <div id='counter'>
     <h2>COUNTER</h2>
-    <p>The Count is {state}</p>
+    <p>The Count is {count}</p>
     <div>
-        <button>INCREASE</button>
-        <button>DECRESE</button>
-        <button>RESET</button>
+        <button onClick={()=> setCount(count+1) }>INCREASE</button>
+        <button onClick={()=> setCount(count-1) }>DECREASE</button>
+        <button onClick={()=> setCount(0) }>RESET</button>
     </div>
 
    </div>
